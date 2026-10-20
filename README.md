@@ -1,7 +1,9 @@
 # COSC 381 - Software Engineering Solutions
 
-College coursework portfolio for **COSC 381 - Software Engineering Solutions** at Eastern Michigan University (Spring 2022 era).  
-Notes and exercises on **Git**, **Linux shell**, in-class problems, and **AWS Academy** coursework.
+![Git and tooling workflow](docs/demo.gif)
+
+College coursework portfolio for **COSC 381** at Eastern Michigan University (Spring 2022).  
+Readable notes on **Git**, the **Linux shell**, in-class exercises, and **AWS Academy** screenshots.
 
 **Author:** [Julio Barros](https://github.com/Jkbarros)  
 **Index:** [college-projects](https://github.com/Jkbarros/college-projects)
@@ -10,11 +12,24 @@ Notes and exercises on **Git**, **Linux shell**, in-class problems, and **AWS Ac
 
 | Area | Description |
 |------|-------------|
-| [Archive index](docs/archive-index.md) | Catalog of files in `archive/` with direct links |
-| [`archive/canvas-submissions/`](archive/canvas-submissions/) | Original DOCX exports (Git cheat sheets, shell notes, class exercises) |
-| [`docs/screenshots/`](docs/screenshots/) | AWS Academy / lab screenshots |
+| [Topics catalog](docs/topics-catalog.md) | Map each topic to markdown + archive file |
+| [Git setup](docs/git-setup.md) | Local repo configuration notes |
+| [Git data model](docs/git-data-model.md) | Objects, commits, branches |
+| [Git cheat sheets](docs/git-cheat-sheet.md) | Quick reference (+ [supplement](docs/git-cheat-sheet-supplement.md)) |
+| [Linux shell](docs/linux-shell.md) | Shell commands and coursework notes |
+| [Class exercises](docs/class-exercise.md) | In-class work (+ [Feb 7 session](docs/class-exercise-feb7.md)) |
+| [Problem & reflection](docs/problem-statement.md) | Problem write-up, [What People Say](docs/what-people-say.md) |
+| [AWS Academy labs](docs/aws-academy-labs.md) | Screenshot walkthrough |
+| [Archive index](docs/archive-index.md) | Direct links to all DOCX in `archive/` |
+| [`archive/canvas-submissions/`](archive/canvas-submissions/) | Original DOCX exports |
 
-### Topics covered
+### Highlights
+
+- All Canvas DOCX converted to GitHub-friendly markdown under `docs/`
+- Git workflow GIF for the README (`scripts/generate_readme_demo.py`)
+- AWS Academy progress preserved as dated screenshots
+
+## Topics covered
 
 ```mermaid
 flowchart LR
@@ -27,25 +42,22 @@ flowchart LR
   A --> E
 ```
 
-## Explore the archive
+## Regenerate docs
 
-Primary materials live in **`archive/canvas-submissions/`**, including:
-
-- Git setup and object model write-ups
-- Git cheat sheets
-- Linux shell reference notes
-- Class exercises (e.g. Feb 7 session)
-- Problem statements and reflection docs (`problem.docx`, `What People Say.docx`)
-
-Screenshots under **`docs/screenshots/`** document AWS Academy progress from Canvas.
+```bash
+pip install -r requirements.txt
+python scripts/docx_to_markdown.py
+python scripts/generate_readme_demo.py
+```
 
 ## Related repos
 
 | Course | Link |
 |--------|------|
-| IA 103 - Information Security | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
+| COSC 111 - Programming & Data Structures | [programming-data-structures-cosc111](https://github.com/Jkbarros/programming-data-structures-cosc111) |
 | COSC 314 - Discrete Structures | [computational-discrete-structures](https://github.com/Jkbarros/computational-discrete-structures) |
-| IA 455 - Incident Response | [incident-response-ia455](https://github.com/Jkbarros/incident-response-ia455) |
+| IA 103 - Information Security | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
+| college-projects index | [college-projects](https://github.com/Jkbarros/college-projects) |
 
 ## Notes for readers
 

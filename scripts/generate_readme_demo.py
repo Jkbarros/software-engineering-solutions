@@ -41,10 +41,12 @@ def frame(title: str, body: str, status: str | None = None, status_color: int = 
 
 def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    SHELL = (251, 191, 36)
     frames = [
-        frame("1. Working tree", "edit files  →  git status", None),
-        frame("2. Stage & commit", "git add -p  →  git commit", "message: describe the change", ACCENT),
+        frame("1. Working tree", "edit files  ->  git status", None),
+        frame("2. Stage & commit", "git add -p  ->  git commit", "message: describe the change", ACCENT),
         frame("3. Share", "git push origin main", "remote: GitHub / team repo", OK),
+        frame("4. Shell & cloud", "linux shell labs  +  AWS Academy", "screenshots in docs/", SHELL),
     ]
     frames[0].save(
         OUT,

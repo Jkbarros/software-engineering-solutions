@@ -44,7 +44,7 @@ def convert_docx(src: Path, dest: Path, title: str) -> None:
         f"# {title}",
         "",
         f"**Source:** [`{src.name}`](../archive/canvas-submissions/{src.name.replace(' ', '%20')})  ",
-        "**Course:** COSC 381 — Software Engineering Solutions (EMU)  ",
+        "**Course:** COSC 381 - Software Engineering Solutions (EMU)  ",
         "**Author:** Julio Barros",
         "",
     ]
