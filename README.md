@@ -1,6 +1,6 @@
-# COSC 381 — Software Engineering Solutions
+# COSC 381 - Software Engineering Solutions
 
-College coursework portfolio for **COSC 381 — Software Engineering Solutions** at Eastern Michigan University (Spring 2022 era).  
+College coursework portfolio for **COSC 381 - Software Engineering Solutions** at Eastern Michigan University (Spring 2022 era).  
 Notes and exercises on **Git**, **Linux shell**, in-class problems, and **AWS Academy** coursework.
 
 **Author:** [Julio Barros](https://github.com/Jkbarros)  
@@ -10,6 +10,7 @@ Notes and exercises on **Git**, **Linux shell**, in-class problems, and **AWS Ac
 
 | Area | Description |
 |------|-------------|
+| [Archive index](docs/archive-index.md) | Catalog of files in `archive/` with direct links |
 | [`archive/canvas-submissions/`](archive/canvas-submissions/) | Original DOCX exports (Git cheat sheets, shell notes, class exercises) |
 | [`docs/screenshots/`](docs/screenshots/) | AWS Academy / lab screenshots |
 
@@ -42,9 +43,9 @@ Screenshots under **`docs/screenshots/`** document AWS Academy progress from Can
 
 | Course | Link |
 |--------|------|
-| IA 103 — Information Security | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
-| COSC 314 — Discrete Structures | [computational-discrete-structures](https://github.com/Jkbarros/computational-discrete-structures) |
-| IA 455 — Incident Response | [incident-response-ia455](https://github.com/Jkbarros/incident-response-ia455) |
+| IA 103 - Information Security | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
+| COSC 314 - Discrete Structures | [computational-discrete-structures](https://github.com/Jkbarros/computational-discrete-structures) |
+| IA 455 - Incident Response | [incident-response-ia455](https://github.com/Jkbarros/incident-response-ia455) |
 
 ## Notes for readers
 
